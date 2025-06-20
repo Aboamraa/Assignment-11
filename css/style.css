@@ -1,0 +1,77 @@
+:root {
+  --primary-bg: #24353f;
+  --primary-color: #17a2b8;
+  --primary-color-rgb: 23, 162, 184;
+  --logout-bg: #ffc107;
+  --error-color: #dc3545;
+  --susses-color: #28a745;
+}
+
+/* General */
+a {
+  transition: 0.3s;
+  text-decoration-color: rgba(0, 0, 0, 0);
+}
+a:hover {
+  text-decoration-color: rgba(23, 162, 250, 1);
+}
+h1 {
+  font-family: "Pacifico", cursive;
+}
+
+h2 {
+  font-family: "Righteous", cursive;
+}
+
+.text-primary {
+  --bs-primary-rgb: var(--primary-color-rgb);
+}
+/* General */
+
+body {
+  background-color: var(--primary-bg);
+}
+
+/* card */
+main .card {
+  background-color: var(--primary-bg);
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.btn-primary {
+  --bs-btn-color: var(--primary-color);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: var(--primary-color);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--primary-color);
+  --bs-btn-hover-border-color: var(--primary-color);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--primary-color);
+  --bs-btn-active-border-color: var(--primary-bg);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.form-control {
+  /* font-size: 1rem; */
+
+  --bs-body-color: white;
+  --bs-body-bg: transparent;
+}
+::placeholder {
+  color: #b6b6b6 !important;
+}
+
+form p a:hover {
+  transition: 0.1s;
+  --bs-primary-rgb: 23, 162, 250;
+}
+
+.bg-body-dark {
+  background-color: var(--primary-bg);
+}
+nav {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.heading-container {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+/* card */
